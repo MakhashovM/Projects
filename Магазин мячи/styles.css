@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 231, 234);
+    font-family: 'Lato', sans-serif;
+}
+.page{
+    position: relative;
+}
+
+#sectio{
+  padding-top: 50px;
+}
+img{
+    width: 60px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    width: 60vw;
+
+}
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 231, 234);
+}
+#nav-link{
+    position: absolute;
+}
+nav{
+    display: block;
+}
+ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+li{
+    list-style: none;
+     border: 2px solid black;
+     margin:20px 20px;
+     padding: 10px 15px;
+     border-color: none;
+     background-color: #d68e07;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+   
+    text-align: left;
+}
+#video{
+    max-width: 560px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color:black;
+  
+   
+    
+
+}
+#sectio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+h2{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+#email{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#submit{
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #35a3cb;
+}
+#submit:hover{
+    background-color:#d68e07;
+    transition: 0.5s;
+}
+.btn{
+   padding: 0px 20px;
+   margin: 20px 0;
+    /* height: 40px; */
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* border: 3px black solid; */
+    border-radius: 2px;
+    background: orange;
+    cursor: pointer;
+}
+.btn:hover{
+background-color:rgb(218, 140, 52);
+transition: 0.5s;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+#ball{
+    margin-top: 30px;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+#delivery {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#price{
+    display: flex;
+    margin-top:60px;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+#btun{
+    background-color:#149ed0;
+   
+    margin-top: 25px;
+    width: 150px;
+}
+#footbal{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin:10px;
+    border:1px solid black;
+    border-radius:3px;
+    width: calc(100% / 3);
+}
+.foot, h3 {
+    margin-top: 15px;
+}
+.footbal, .foot {
+    background-color: rgb(173, 173, 173);
+    color: black;
+    padding: 15px 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footbal, button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+#basketbal{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin:10px;
+    border:1px solid black;
+    border-radius:3px;
+    width: calc(100% / 3);
+}
+.bas, h3 {
+    margin-top: 15px;
+}
+.basketbal, .bas {
+    background-color: rgb(173, 173, 173);
+    color: black;
+    padding: 15px 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.basketbal, button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+#voleybal{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    margin:10px;
+    border:1px solid black;
+    border-radius:3px;
+    width: calc(100% / 3);
+}
+.vol, h3 {
+    margin-top: 15px;
+}
+.voleybal, .vol {
+    background-color: rgb(173, 173, 173);
+    color: black;
+    padding: 15px 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.voleybal, button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+#ball{
+    border:3px solid rgb(73, 71, 71);
+   padding-left: 60px;
+   padding-bottom: 54px;
+}
